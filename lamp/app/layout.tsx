@@ -7,7 +7,10 @@ const HomePage = () => {
     <html>
       <body>
         <About />
+        <Faq />
+        <How />
         <Products />
+        <Contacts />
       </body>
     </html>
   );
