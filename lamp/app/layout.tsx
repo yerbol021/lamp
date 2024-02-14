@@ -1,10 +1,14 @@
 import React from "react";
 import About from "./about/page";
+import Products from "./products/page";
 
 const HomePage = () => {
   return (
     <html>
-      <body>{/* <About /> */}</body>
+      <body>
+        <About />
+        <Products />
+      </body>
     </html>
   );
 };
