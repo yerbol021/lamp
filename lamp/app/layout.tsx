@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+import { NextPage } from "next";
 import About from "./about/page";
 import Products from "./products/page";
 import FAQPage from "./faq/page";
