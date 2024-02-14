@@ -9,8 +9,8 @@ const HomePage = () => {
     <html>
       <body>
         <About />
-        {/* <FAQPage />
-        <How /> */}
+        <FAQPage />
+        {/* <How /> */}
         <Products />
         {/* <Contacts /> */}
       </body>
