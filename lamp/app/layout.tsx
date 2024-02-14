@@ -4,9 +4,7 @@ import About from "./about/page";
 const HomePage = () => {
   return (
     <html>
-      <body>
-        <About />
-      </body>
+      <body>{/* <About /> */}</body>
     </html>
   );
 };
