@@ -1,6 +1,19 @@
+import React from "react";
+import Image from "next/image";
+import "./Button.css";
+
 const Button = () => {
   return (
-    <button className="h-12 rounded-lg bg-white font-bold px-5">Sign In</button>
+    <a href="tel:+16726672700" title="Call Us">
+      <div className="nav_image">
+        <Image
+          src="/images/call us2.jpeg"
+          alt="Call us"
+          width={100}
+          height={100}
+        />
+      </div>
+    </a>
   );
 };
 
