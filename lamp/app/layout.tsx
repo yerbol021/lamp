@@ -6,6 +6,11 @@ import FAQPage from "./faq/page";
 import HowItWorksPage from "./how/page";
 import ContactsPage from "./contacts/page";
 
+export const metadata = {
+  title: "Medlampa.kz",
+  description: "Medlampa.kz",
+};
+
 const HomePage = () => {
   return (
     <html>
