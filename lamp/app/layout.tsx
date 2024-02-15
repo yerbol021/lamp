@@ -4,6 +4,7 @@ import About from "./about/page";
 import Products from "./products/page";
 import FAQPage from "./faq/page";
 import HowItWorksPage from "./how/page";
+import ContactsPage from "./contacts/page";
 
 const HomePage = () => {
   return (
@@ -13,7 +14,7 @@ const HomePage = () => {
         <FAQPage />
         <HowItWorksPage />
         <Products />
-        {/* <Contacts /> */}
+        <ContactsPage />
       </body>
     </html>
   );
