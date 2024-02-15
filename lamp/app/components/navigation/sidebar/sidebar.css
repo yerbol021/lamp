@@ -1,0 +1,12 @@
+.sidebar-nav {
+  list-style: none; /* Remove bullet points */
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px; /* Add some space between list items */
+}
+
+.sidebar-nav p {
+  font-size: 1.5rem; /* Adjust the font size of the links if needed */
+  color: #333; /* Adjust the color of the links if needed */
+}
