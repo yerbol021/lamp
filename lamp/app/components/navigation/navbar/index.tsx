@@ -27,23 +27,34 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
-            <ul className="hidden md:flex gap-x-6 text-white ">
+            <ul className="hidden md:flex gap-x-6 text-white">
               <li>
                 <Link href="/about">
-                  <p>About Us</p>
+                  <p>О нас</p>
                 </Link>
               </li>
               <li>
-                <Link href="/services">
-                  <p>Services</p>
+                <Link href="/faq">
+                  <p>Вопросы и Ответы</p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/how">
+                  <p>Как это работает</p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/products">
+                  <p>Товары</p>
                 </Link>
               </li>
               <li>
                 <Link href="/contacts">
-                  <p>Contacts</p>
+                  <p>Контакты</p>
                 </Link>
               </li>
             </ul>
+
             <div className="hidden md:block">
               <Button />
             </div>
