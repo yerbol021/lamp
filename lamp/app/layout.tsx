@@ -35,19 +35,3 @@ export default function RootLayout({
     </html>
   );
 }
-// const HomePage = () => {
-//   return (
-//     <html>
-//       <body>
-//         {/* <Navbar /> */}
-//         <About />
-//         <FAQPage />
-//         <HowItWorksPage />
-//         <Products />
-//         <ContactsPage />
-//       </body>
-//     </html>
-//   );
-// };
-
-// export default HomePage;
