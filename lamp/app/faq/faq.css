@@ -1,3 +1,23 @@
+.faq_ru {
+  margin: 20px;
+}
+
 .question {
   cursor: pointer; /* Change cursor style to pointer */
+  margin-bottom: 20px; /* Add more space between questions */
+}
+
+.question h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.answer {
+  font-size: 1rem;
+  color: #555;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
 }

@@ -41,7 +41,6 @@ const FAQPage: NextPage = () => {
 
   return (
     <div>
-      <h1>FAQ</h1>
       <ul>
         {faqData.map((faq, index) => (
           <li
