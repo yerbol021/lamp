@@ -30,6 +30,15 @@ const Products = () => {
   return (
     <div className="products_ru">
       <p>lamp types</p>
+      <div className="bullet-points">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={index === currentIndex ? "active" : ""}
+            onClick={() => setCurrentIndex(index)}
+          ></span>
+        ))}
+      </div>
       <div className="products-images">
         {images.map((image, index) => (
           <img
@@ -39,15 +48,15 @@ const Products = () => {
             style={{ display: index === currentIndex ? "block" : "none" }}
           />
         ))}
-        <div className="bullet-points">
-          {images.map((_, index) => (
-            <span
-              key={index}
-              className={index === currentIndex ? "active" : ""}
-              onClick={() => setCurrentIndex(index)}
-            ></span>
-          ))}
-        </div>
+      </div>
+      <div className="bullet-points">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={index === currentIndex ? "active" : ""}
+            onClick={() => setCurrentIndex(index)}
+          ></span>
+        ))}
       </div>
     </div>
   );
